@@ -1,0 +1,44 @@
+2019-05-08T13:17:08+00:00 CRITICAL syntax error, unexpected 'var_dump' (T_STRING) en /home/galiasco/public_html/desarrollo/wp-content/themes/portalm4/page-registrar.php en la línea 399
+
+2019-05-08T13:17:12+00:00 CRITICAL syntax error, unexpected 'var_dump' (T_STRING) en /home/galiasco/public_html/desarrollo/wp-content/themes/portalm4/page-registrar.php en la línea 399
+
+2019-05-08T13:17:24+00:00 CRITICAL syntax error, unexpected 'var_dump' (T_STRING) en /home/galiasco/public_html/desarrollo/wp-content/themes/portalm4/page-registrar.php en la línea 399
+
+2019-05-08T13:17:25+00:00 CRITICAL syntax error, unexpected 'var_dump' (T_STRING) en /home/galiasco/public_html/desarrollo/wp-content/themes/portalm4/page-registrar.php en la línea 399
+
+2019-05-08T14:24:01+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_maybe_store_user_agent(), 1 passed in /home/galiasco/public_html/desarrollo/wp-includes/class-wp-hook.php on line 286 and exactly 2 expected in /home/galiasco/public_html/desarrollo/wp-content/plugins/woocommerce/includes/wc-user-functions.php:718
+Stack trace:
+#0 /home/galiasco/public_html/desarrollo/wp-includes/class-wp-hook.php(286): wc_maybe_store_user_agent(NULL)
+#1 /home/galiasco/public_html/desarrollo/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/galiasco/public_html/desarrollo/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/galiasco/public_html/desarrollo/wp-content/themes/portalm4/functions.php(691): do_action('wp_login', NULL)
+#4 /home/galiasco/public_html/desarrollo/wp-includes/class-wp-hook.php(286): activate_user_and_blog('galiashop.com', '/desarrollo/kat...', 'katupo', Object(WP_User), 'prueba@katupyry...', 'b9c47c8a3095e84...', Array)
+#5 /home/galiasco/public_html/desarrollo/wp-includes en /home/galiasco/public_html/desarrollo/wp-content/plugins/woocommerce/includes/wc-user-functions.php en la línea 718
+
+2019-05-08T14:26:29+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_maybe_store_user_agent(), 1 passed in /home/galiasco/public_html/desarrollo/wp-includes/class-wp-hook.php on line 286 and exactly 2 expected in /home/galiasco/public_html/desarrollo/wp-content/plugins/woocommerce/includes/wc-user-functions.php:718
+Stack trace:
+#0 /home/galiasco/public_html/desarrollo/wp-includes/class-wp-hook.php(286): wc_maybe_store_user_agent('apps@ereerea.co...')
+#1 /home/galiasco/public_html/desarrollo/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/galiasco/public_html/desarrollo/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/galiasco/public_html/desarrollo/wp-content/themes/portalm4/functions.php(692): do_action('wp_login', 'apps@ereerea.co...')
+#4 /home/galiasco/public_html/desarrollo/wp-includes/class-wp-hook.php(286): activate_user_and_blog('galiashop.com', '/desarrollo/cap...', 'capus', Object(WP_User), 'apps@ereerea.co...', 'fea0198bc6db22d...', Array)
+#5 /home/galiasco/pub en /home/galiasco/public_html/desarrollo/wp-content/plugins/woocommerce/includes/wc-user-functions.php en la línea 718
+
+2019-05-08T14:38:27+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_maybe_store_user_agent(), 1 passed in /home/galiasco/public_html/desarrollo/wp-includes/class-wp-hook.php on line 286 and exactly 2 expected in /home/galiasco/public_html/desarrollo/wp-content/plugins/woocommerce/includes/wc-user-functions.php:718
+Stack trace:
+#0 /home/galiasco/public_html/desarrollo/wp-includes/class-wp-hook.php(286): wc_maybe_store_user_agent(NULL)
+#1 /home/galiasco/public_html/desarrollo/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/galiasco/public_html/desarrollo/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/galiasco/public_html/desarrollo/wp-content/themes/portalm4/functions.php(704): do_action('wp_login', NULL)
+#4 /home/galiasco/public_html/desarrollo/wp-content/themes/portalm4/functions.php(686): auto_login(Object(WP_User))
+#5 /home/galiasco/public_html/desarrollo/wp-includes/class-wp-hook.php(286): activate_user_and_blog('galiashop.com', '/desarrollo/cal...', 'calipo2', 'ap en /home/galiasco/public_html/desarrollo/wp-content/plugins/woocommerce/includes/wc-user-functions.php en la línea 718
+
+2019-05-08T14:40:47+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_maybe_store_user_agent(), 1 passed in /home/galiasco/public_html/desarrollo/wp-includes/class-wp-hook.php on line 286 and exactly 2 expected in /home/galiasco/public_html/desarrollo/wp-content/plugins/woocommerce/includes/wc-user-functions.php:718
+Stack trace:
+#0 /home/galiasco/public_html/desarrollo/wp-includes/class-wp-hook.php(286): wc_maybe_store_user_agent(NULL)
+#1 /home/galiasco/public_html/desarrollo/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#2 /home/galiasco/public_html/desarrollo/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /home/galiasco/public_html/desarrollo/wp-content/themes/portalm4/functions.php(705): do_action('wp_login', NULL)
+#4 /home/galiasco/public_html/desarrollo/wp-content/themes/portalm4/functions.php(686): auto_login(Object(WP_User))
+#5 /home/galiasco/public_html/desarrollo/wp-includes/class-wp-hook.php(286): activate_user_and_blog('galiashop.com', '/desarrollo/koc...', 'kocu', 'prueb en /home/galiasco/public_html/desarrollo/wp-content/plugins/woocommerce/includes/wc-user-functions.php en la línea 718
+
